@@ -46,3 +46,57 @@ let max2=Math.max(...numbers);
 
 console.log(max2);
 
+let numbers1=[4,6,3,8];
+let newNumber=[3,4,6,7,2];
+
+let concatArray = newNumber.concat(numbers1);
+console.log(concatArray);
+
+let newNumber1=[3,4,6,7,2,...numbers1];
+console.log(newNumber1);
+
+
+let newNumber2=[3,4,...numbers1,6,7,2];
+console.log(newNumber2);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
