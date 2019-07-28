@@ -32,3 +32,13 @@ let result=multiply1(2,7,4,5);
 
 console.log(result);
 
+
+let max=Math.max(3,4,5,8);
+
+console.log(max);
+
+let numbers =[6,3,7,2];
+let max1=Math.max(...numbers);
+
+console.log(max1);
+
