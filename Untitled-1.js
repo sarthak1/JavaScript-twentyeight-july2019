@@ -29,4 +29,6 @@ let multiply1 = (mul,...numbers)=>{
     return numbers.map(n=>mul*n);
 }
 let result=multiply1(2,7,4,5);
+
 console.log(result);
+
