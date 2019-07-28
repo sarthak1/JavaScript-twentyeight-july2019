@@ -37,8 +37,12 @@ let max=Math.max(3,4,5,8);
 
 console.log(max);
 
-let numbers =[6,3,7,2];
-let max1=Math.max(...numbers);
+let numbers =[3,4,5,8];
+
+let max1=Math.max.apply(null,numbers);
 
 console.log(max1);
+let max2=Math.max(...numbers);
+
+console.log(max2);
 
